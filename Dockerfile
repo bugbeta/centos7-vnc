@@ -6,7 +6,7 @@ ENV REFRESHED_AT 2018-03-18
 USER 0
 
 ## Install a gedit
-RUN yum install -y gedit telnet net-tools crontabs openssh-server openssh-clients bind-utils\
+RUN yum install -y gedit telnet net-tools crontabs openssh-server openssh-clients bind-utils traceroute\
     && yum clean all
 
 # centos6
