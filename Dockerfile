@@ -9,7 +9,6 @@ USER 0
 RUN yum install -y gedit telnet net-tools nc nmap crontabs openssh-server openssh-clients bind-utils traceroute tcpdump freerdp\
     && yum clean all
     
-RUN mkdir -p /var/run/sshd /root/.ssh
 
 # centos6
 # RUN sed -i 's/UsePAM yes/UsePAM no/g' /etc/ssh/sshd_config
